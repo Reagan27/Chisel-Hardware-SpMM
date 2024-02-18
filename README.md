@@ -2,7 +2,7 @@
 
 This project implements a Sparse Matrix Multiplication (SpMM) hardware accelerator using Chisel, a hardware construction language embedded in Scala.
 
-#Overview#
+#Overview
 
 Sparse matrix multiplication is a fundamental operation in many scientific and engineering applications. In this project, we implement a hardware accelerator for SpMM, targeting FPGA-based platforms.
 
