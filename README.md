@@ -1,12 +1,14 @@
-Sparse Matrix Multiplication (SpMM) using Chisel
+#Sparse Matrix Multiplication (SpMM) using Chisel
+
 This project implements a Sparse Matrix Multiplication (SpMM) hardware accelerator using Chisel, a hardware construction language embedded in Scala.
 
-Overview
+#Overview#
+
 Sparse matrix multiplication is a fundamental operation in many scientific and engineering applications. In this project, we implement a hardware accelerator for SpMM, targeting FPGA-based platforms.
 
 The SpMM accelerator takes two input matrices: Matrix A (sparse) and Matrix B (dense, transposed). It computes the product of these matrices and produces the result as Matrix C (dense, transposed).
 
-Modules
+#Modules
 SpMM Module
 The SpMM module is the main hardware accelerator for sparse matrix multiplication. It has the following IO ports:
 
@@ -21,11 +23,11 @@ Output the result Matrix C.
 SpMMTest
 The SpMMTest module contains unit tests for the SpMM module. It verifies that the SpMM accelerator produces correct results for a given set of input matrices.
 
-Usage
+#Usage
 To run the tests:
 sbt test
 
-Dependencies
+#Dependencies
 Chisel: A hardware construction language embedded in Scala.
 ChiselTest: A testing framework for Chisel.
 ScalaTest: A testing tool for Scala.
