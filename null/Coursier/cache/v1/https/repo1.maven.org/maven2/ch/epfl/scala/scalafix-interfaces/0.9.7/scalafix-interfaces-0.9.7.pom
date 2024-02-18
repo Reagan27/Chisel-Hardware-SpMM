@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ch.epfl.scala</groupId>
+    <artifactId>scalafix-interfaces</artifactId>
+    <packaging>jar</packaging>
+    <description>interfaces</description>
+    <url>https://github.com/scalacenter/scalafix</url>
+    <version>0.9.7</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>interfaces</name>
+    <organization>
+        <name>ch.epfl.scala</name>
+        <url>https://github.com/scalacenter/scalafix</url>
+    </organization>
+    <scm>
+        <url>https://github.com/scalacenter/scalafix</url>
+        <connection>scm:git:git@github.com:scalacenter/scalafix.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>xeno-by</id>
+            <name>Eugene Burmako</name>
+            <email>eugene.burmako@gmail.com</email>
+            <url>http://xeno.by</url>
+        </developer>
+        <developer>
+            <id>gabro</id>
+            <name>Gabriele Petronella</name>
+            <email>gabriele@buildo.io</email>
+            <url>https://buildo.io</url>
+        </developer>
+        <developer>
+            <id>MasseGuillaume</id>
+            <name>Guillaume Massé</name>
+            <email>masgui@gmail.com</email>
+            <url>https://github.com/MasseGuillaume</url>
+        </developer>
+        <developer>
+            <id>olafurpg</id>
+            <name>Ólafur Páll Geirsson</name>
+            <email>olafurpg@gmail.com</email>
+            <url>https://geirsson.com</url>
+        </developer>
+        <developer>
+            <id>marcelocenerine</id>
+            <name>Marcelo Cenerino</name>
+            <email>marcelocenerine@gmail.com</email>
+            <url>https://github.com/marcelocenerine</url>
+        </developer>
+        <developer>
+            <id>ShaneDelmore</id>
+            <name>Shane Delmore</name>
+            <email>shane@delmore.io</email>
+            <url>https://github.com/shanedelmore</url>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://scalacenter.github.io/scalafix/</info.apiURL>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scalacheck</groupId>
+            <artifactId>scalacheck_2.12</artifactId>
+            <version>1.14.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.0.8</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
